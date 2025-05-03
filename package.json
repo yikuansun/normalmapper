@@ -1,0 +1,19 @@
+{
+    "name": "normalmapper",
+    "version": "1.0.0",
+    "description": "Normal mapping with Beeble AI",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "keywords": [
+        "normal",
+        "map"
+    ],
+    "author": "Yikuan Sun",
+    "license": "MIT",
+    "dependencies": {
+        "puppeteer": "^24.8.0"
+    }
+}
