@@ -19,8 +19,8 @@ await skipButton.click();
 let fileInput = await page.waitForSelector("#file-selection-main-input");
 await fileInput.uploadFile(path.join(__dirname, "input.jpg"));
 
-let keepCurrentPlanButton = await page.waitForSelector("#keep-current-plan-button");
-await keepCurrentPlanButton.click();
+/*let keepCurrentPlanButton = await page.waitForSelector("#keep-current-plan-button");
+await keepCurrentPlanButton.click();*/
 
 let outputImage = await page.waitForSelector("#preview-container img");
 //await outputImage.screenshot({ path: path.join(__dirname, "output.jpg") });
